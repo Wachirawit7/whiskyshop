@@ -68,8 +68,9 @@ Route::get('/admin/delete-product/{id}', [ProductController::class, 'deleteProdu
 
 // Route::middleware('is_admin')->group(function () {
 //     //show admin page
+        // go to admin page
 //     Route::get('dashboard', [AdminController::class, 'index'])->name('dashboard');
 // });
 // //logout
-// Route::post('logout', [Auth\AuthenticatedSessionController::class, 'destroy'])->name('logout');
+// Route::post('logout', [Auth\AuthenticatedSessionController::class, 'destroy'])->name("logout");
 // });
